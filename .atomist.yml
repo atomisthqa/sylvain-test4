@@ -1,0 +1,16 @@
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170728065612"
+editor:
+  name: "AddAtomistAgent"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.7.10"
+  origin:
+    repo: "git@github.com:atomisthq/spring-team-handlers.git"
+    branch: "sylvain/make-gh-url-a-parameter"
+    sha: "d885835"
+  parameters:
+    - "slackTeam": "T1L0VDKJP"
+
