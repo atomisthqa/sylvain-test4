@@ -1,2 +1,2 @@
 FROM ubuntu:16:10
-ENTRYPOINT ["ls"]
+ENTRYPOINT ["ls", "a"]
