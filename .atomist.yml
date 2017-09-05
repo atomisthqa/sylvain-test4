@@ -30,3 +30,19 @@ editor:
   parameters:
     - "atomistWebhookUrl": "https://webhook-staging.atomist.services/atomist/circle"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170816122823"
+editor:
+  name: "AddTravisWebhookEditor"
+  group: "atomist"
+  artifact: "enrollment-rugs"
+  version: "0.3.48"
+  origin:
+    repo: "git@github.com:atomisthq/enrollment-rugs.git"
+    branch: "master"
+    sha: "a5f3426"
+  parameters:
+    - "atomistWebhookUrl": "https://webhook-staging.atomist.services/atomist/travis"
+
