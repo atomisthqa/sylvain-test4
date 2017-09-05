@@ -40,10 +40,13 @@ pipeline {
     agent none
     stages {
         stage('Checkout') {
-            checkout scm
+            steps {
+                checkout scm
+            }
         }
         stage('Build') {
             steps {
+                echo "built"
             }
         }
     }
