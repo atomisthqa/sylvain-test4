@@ -1,3 +1,6 @@
 machine:
   timezone:
     America/Los_Angeles
+notify:
+  webhooks:
+  - url: 'https://webhook-staging.atomist.services/atomist/circle'
