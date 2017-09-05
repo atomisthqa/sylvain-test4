@@ -37,6 +37,7 @@ def notifyAtomist(buildStatus, buildPhase="FINALIZED",
     sh "curl --silent -XPOST -H 'Content-Type: application/json' -d '${payload}' ${endpoint}"
 }
 pipeline {
+    agent none
     stages {
         stage('Checkout') {
             checkout scm
