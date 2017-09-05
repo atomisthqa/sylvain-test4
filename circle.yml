@@ -1,2 +1,3 @@
 machine:
-  timezone: America/cuckoo
+  timezone:
+    America/Los_Angeles
