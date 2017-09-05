@@ -42,10 +42,12 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
+                notifyAtomist("STARTED", "STARTED")
             }
         }
         stage('Build') {
             steps {
+                sleep 20
                 echo "built"
             }
         }
