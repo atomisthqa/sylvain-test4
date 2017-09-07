@@ -20,7 +20,7 @@ def getSCMInformation() {
  * git repository.
  */
 def notifyAtomist(buildStatus, buildPhase="FINALIZED",
-                  endpoint="https://webhook-staging.atomist.services") {
+                  endpoint="https://webhook-staging.atomist.services/atomist/jenkins") {
 
     def payload = JsonOutput.toJson([
         name: env.JOB_NAME,
