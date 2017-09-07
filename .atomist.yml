@@ -62,3 +62,19 @@ editor:
   parameters:
     - "atomistWebhookUrl": "https://webhook-staging.atomist.services/atomist/jenkins"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170816122823"
+editor:
+  name: "AddJenkinsfileWebhookEditor"
+  group: "atomist"
+  artifact: "enrollment-rugs"
+  version: "0.3.54"
+  origin:
+    repo: "git@github.com:atomisthq/enrollment-rugs.git"
+    branch: "master"
+    sha: "6eb1e16"
+  parameters:
+    - "atomistWebhookUrl": "https://webhook-staging.atomist.services/atomist/jenkins"
+
