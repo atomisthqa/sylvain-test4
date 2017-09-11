@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 @RequestMapping("/api")
 public class BlahController {
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/v1", method = RequestMethod.GET)
     public ResponseEntity<String> hello() {
         return new ResponseEntity<String>("Hi there", HttpStatus.OK);
     }
